@@ -15,7 +15,7 @@
     "t-rmgcti": "A 8401",
     "t-excbio": "A 8481"
   },
-  "boletinHasta": "2026-10-11",
+  "boletinHasta": "2026-10-12",
   "pendientes": {
     "A": [],
     "B": [],
@@ -51,8 +51,8 @@
   ],
   "fallasDesde": {},
   "boletinHoy": {
-    "fecha": "2026-10-12",
-    "normas": 0
+    "fecha": "2026-10-13",
+    "normas": 56
   },
-  "ultimaCorrida": "2026-10-13T00:48:52.365Z"
+  "ultimaCorrida": "2026-10-13T12:49:13.750Z"
 }
