@@ -1,0 +1,117 @@
+{
+  "fecha": "2026-10-14",
+  "generado": "14/10/2026 a las 09:49",
+  "hallazgos": [
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8482/2026",
+      "asunto": "Informe de Contadores Públicos Independientes sobre el cumplimiento de las Normas del BCRA por parte de los Proveedores de Servicios de Pago.",
+      "fecha": "14/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348939/20261014",
+      "tipo": "Comunicación normativa",
+      "queCambia": "El BCRA comunica las adecuaciones al Informe de la referencia, como consecuencia de la emisión de la Comunicación “A” 8432. Al respecto, los “Proveedores de Servicios de Pago que ofrecen cuentas de pago como Servicio” deberán observar los requisitos de informe de cumplimiento que les sean aplicables con profesionales inscriptos en el “Registro de Auditores” habilitado en la SEFYC. Se acompaña la hoja que corresponde reemplazar en el texto ordenado del presente régimen informativo.",
+      "paraQue": "",
+      "tema": "informativo",
+      "comoAfecta": [
+        "No está dirigida a los PSP, pero trata materias vinculadas a la actividad de SYS.",
+        "Modifica la información a presentar al BCRA, su formato o su periodicidad."
+      ],
+      "queHacer": "Evaluar las adecuaciones requeridas y sus plazos.",
+      "fechasClave": [],
+      "dondeNombraASys": "Al respecto, los “Proveedores de Servicios de Pago que ofrecen cuentas de pago como Servicio” deberán observar los requisitos de informe de cumplimiento que les sean aplicables con profesionales inscriptos en el “Registro de Auditores” habilitado en la SEFYC.",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "alta",
+        "puntaje": 12,
+        "motivos": [
+          "proveedores de servicios de pago",
+          "cuentas de pago",
+          "emitida por el BCRA"
+        ],
+        "temas": [
+          "psp",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "aplica",
+        "queCambia": "El Banco Central establece adecuaciones al informe de contadores públicos independientes sobre el cumplimiento de normas para los proveedores de servicios de pago que ofrecen cuentas de pago.",
+        "comoAfecta": "SYS debe cumplir con los nuevos requisitos de informe de cumplimiento a cargo de profesionales inscriptos en el Registro de Auditores de la SEFYC.",
+        "queHacer": "Designar auditores inscriptos en el Registro de Auditores de la SEFYC para emitir el informe de cumplimiento requerido por el Banco Central.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    },
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8469/2026",
+      "asunto": "R.I. Transferencias inmediatas intraentidades (R.I. -T.I.I.). Adecuaciones",
+      "fecha": "14/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348937/20261014",
+      "tipo": "Comunicación normativa",
+      "queCambia": "El BCRA comunica las adecuaciones realizadas en el requerimiento informativo de la referencia, oportunamente difundido mediante las Comunicaciones A 8427 y A 8434. En ese sentido, se habilitó el dato ‘Participación de un administrador’ (Tabla 3) en la in formación a remitir por parte de las entidades financieras. Asimismo, se introdujo una aclaración en las Instrucciones Particulares relacionada con la manera de informar las operaciones correspondientes a Pagos con Transferencia (PCT) en las que participe un administrador y se utilice una ‘cuenta puente’ abierta en la entidad informante.",
+      "paraQue": "",
+      "tema": "informativo",
+      "comoAfecta": [
+        "No está dirigida a los PSP, pero trata materias vinculadas a la actividad de SYS.",
+        "Modifica la información a presentar al BCRA, su formato o su periodicidad."
+      ],
+      "queHacer": "Evaluar las adecuaciones requeridas y sus plazos.",
+      "fechasClave": [],
+      "dondeNombraASys": "",
+      "relacionadas": [
+        {
+          "texto": "Comunicación \"A\" 8427",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8427.pdf",
+          "detalle": "R.I. Transferencias inmediatas intraentidades (R.I. -T.I.I.) (24/04/2026)"
+        },
+        {
+          "texto": "Comunicación \"A\" 8434",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8434.pdf",
+          "detalle": "R.I. Transferencias inmediatas intraentidades (R.I. -T.I.I.) (08/05/2026)"
+        }
+      ],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 19,
+        "motivos": [
+          "proveedores de servicios de pago",
+          "cuentas de pago",
+          "pagos con transferencia / QR",
+          "transferencias inmediatas",
+          "entidades financieras",
+          "emitida por el BCRA",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "psp",
+          "pagos",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Banco Central dispuso adecuaciones en el régimen informativo de transferencias inmediatas intraentidades dirigidas a las entidades financieras.",
+        "comoAfecta": "La norma aplica exclusivamente a entidades financieras.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
+  "revisado": [
+    "Boletín Oficial del 2026-10-13: 56 normas (día anterior, vuelto a mirar por si quedó algo).",
+    "Boletín Oficial del 2026-10-14: 78 normas.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8491).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13247).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102427).",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
+    "Resumen con IA: 2 de 2 normas."
+  ],
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
+}
