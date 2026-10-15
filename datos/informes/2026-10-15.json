@@ -1,0 +1,73 @@
+{
+  "fecha": "2026-10-15",
+  "generado": "15/10/2026 a las 09:49",
+  "hallazgos": [
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Comisión Nacional de Valores",
+      "titulo": "Resolución General 1172/2026",
+      "asunto": "",
+      "fecha": "15/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348986/20261015",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "– Incorporar en el artículo 2° de la Sección II del Capítulo II del Título I de las NORMAS (N.T. 2013 y mod.), los siguientes términos definidos: “(…) “ARS” o “PESOS” significa la moneda de curso legal en la República Argentina. (…) “BTC” significa Bitcoin. (…) “USD” significa dólares estadounidenses. “USDC” significa la moneda estable denominada en dólares estadounidenses emitida por Circle. “USDT” significa la moneda estable denominada en dólares estadounidenses emitida por Tether. (…)”.",
+      "paraQue": "Por otra parte, corresponde adecuar las modalidades de presentación de la información previstas en el inciso b) del artículo 40 del Capítulo III del Título XIV de las NORMAS (N.T. 2013 y mod.), estableciendo pautas para su remisión a fin de procurar uniformidad en la información presentada.",
+      "tema": "cnv",
+      "comoAfecta": [
+        "Menciona materias propias de la actividad de SYS: billeteras virtuales/digitales, PSP/PSPCP, Ley 27.739 (PSP sujetos obligados).",
+        "Aplica si SYS remunera saldos mediante fondos comunes de inversión u opera con activos virtuales."
+      ],
+      "queHacer": "Evaluar las adecuaciones requeridas y sus plazos.",
+      "fechasClave": [
+        "“ARTÍCULO 5°.- Establecer que la información periódica dispuesta en el inciso b) del artículo 40 del Capítulo III del Título XIV de las NORMAS (N.T. 2013 y mods.), será aplicable a partir del 1° de noviembre de 2026”.",
+        "La presente RG entrará en vigencia a partir del día siguiente al de su publicación en el B.O."
+      ],
+      "dondeNombraASys": "…con estándares internacionales de seguridad financiera equivalentes a Basilea III, o se podrán valer de terceras compañías que operen como PSP registrados ante el BCRA, en la medida en que la normativa de dicha Entidad de control no lo prohíba, en ambos casos, en beneficio de sus…",
+      "relacionadas": [
+        {
+          "texto": "Comunicación \"A\" 3500 del BCRA",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A3500.pdf",
+          "detalle": "Circular CAMEX 1 – 333. Disposiciones para la determinación del tipo de cambio de referencia ()"
+        }
+      ],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 15,
+        "motivos": [
+          "billeteras virtuales/digitales",
+          "PSP/PSPCP",
+          "Ley 27.739 (PSP sujetos obligados)",
+          "activos virtuales (PSAV)",
+          "emitida por la CNV",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "cnv",
+          "psp",
+          "lavado"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "La Comisión Nacional de Valores modificó el régimen de inscripción y funcionamiento para los Proveedores de Servicios de Activos Virtuales (PSAV).",
+        "comoAfecta": "La norma regula activos virtuales y no afecta la operatoria de pagos y transferencias de SYS.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
+  "revisado": [
+    "Boletín Oficial del 2026-10-14: 78 normas (día anterior, vuelto a mirar por si quedó algo).",
+    "Boletín Oficial del 2026-10-15: 55 normas.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8491).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13247).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102431).",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
+    "Resumen con IA: 1 de 1 normas."
+  ],
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
+}
