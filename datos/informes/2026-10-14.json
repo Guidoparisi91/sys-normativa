@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-14",
-  "generado": "14/10/2026 a las 09:49",
+  "generado": "14/10/2026 a las 21:51",
   "hallazgos": [
     {
       "fuente": "Boletín Oficial",
@@ -101,17 +101,19 @@
     }
   ],
   "revisado": [
-    "Boletín Oficial del 2026-10-13: 56 normas (día anterior, vuelto a mirar por si quedó algo).",
     "Boletín Oficial del 2026-10-14: 78 normas.",
     "BCRA \"A\": 0 nuevas (última leída: A 8491).",
     "BCRA \"B\": 0 nuevas (última leída: B 13247).",
-    "BCRA \"C\": 0 nuevas (última leída: C 102427).",
+    "BCRA \"C\": 4 nuevas (última leída: C 102431).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
-    "Rentas Córdoba: 0 normas nuevas.",
-    "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: 2 de 2 normas."
+    "Prensa del BCRA: 1 noticias nuevas.",
+    "Resumen con IA: no hubo normas para resumir."
   ],
-  "errores": [],
+  "errores": [
+    "Rentas Córdoba: el sitio de Rentas está en mantenimiento; se vuelve a consultar en la próxima revisión, sin perder lo publicado mientras tanto"
+  ],
   "demoras": [],
-  "enCurso": []
+  "enCurso": [
+    "Rentas Córdoba"
+  ]
 }
