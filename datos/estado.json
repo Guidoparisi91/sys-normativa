@@ -1,7 +1,7 @@
 {
   "ultimaComunicacion": {
     "A": 8492,
-    "B": 13248,
+    "B": 13249,
     "C": 102435
   },
   "textosOrdenados": {
@@ -15,7 +15,7 @@
     "t-rmgcti": "A 8401",
     "t-excbio": "A 8481"
   },
-  "boletinHasta": "2026-10-14",
+  "boletinHasta": "2026-10-15",
   "pendientes": {
     "A": [],
     "B": [],
@@ -52,8 +52,8 @@
   ],
   "fallasDesde": {},
   "boletinHoy": {
-    "fecha": "2026-10-15",
+    "fecha": "2026-10-16",
     "normas": 55
   },
-  "ultimaCorrida": "2026-10-16T00:48:54.235Z"
+  "ultimaCorrida": "2026-10-16T12:49:32.060Z"
 }
