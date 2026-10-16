@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-15",
-  "generado": "15/10/2026 a las 09:49",
+  "generado": "15/10/2026 a las 21:48",
   "hallazgos": [
     {
       "fuente": "Boletín Oficial",
@@ -54,14 +54,55 @@
         "comoAfecta": "La norma regula activos virtuales y no afecta la operatoria de pagos y transferencias de SYS.",
         "modelo": "gemini-3.5-flash-lite"
       }
+    },
+    {
+      "fuente": "BCRA",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8492",
+      "asunto": "Régimen Informativo Contable Mensual. Efectivo mínimo y Aplicación de Recursos (R.I. - E.M. - A.R.). Adecuaciones.",
+      "fecha": "15/10/2026",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
+      "tipo": "Comunicación normativa",
+      "queCambia": "El BCRA comunica las modificaciones introducidas en el Régimen Informativo de la referencia, con vigencia a partir del día 01/11/2026. Al respecto, se realizan los siguientes cambios: - Se adecúa la Sección 6 – “Posición de Efectivo Mínimo Diaria”. - Se modifica el punto 6.2.2.1. y el control de validación 538; y los puntos 6.2.2.2. y 6.2.2.3. respecto del valor a informar para la partida 102200 de la Sección 6. de “Presentación de Informaciones al Banco Central”. Se acompañan las hojas que corresponden reemplazar en los textos ordenados del presente régimen informativo.",
+      "paraQue": "",
+      "tema": "informativo",
+      "comoAfecta": [
+        "No está dirigida a los PSP (destinatarios: entidades financieras), pero trata materias vinculadas a la actividad de SYS.",
+        "Modifica la información a presentar al BCRA, su formato o su periodicidad."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "Nos dirigimos a Uds. para comunicarles las modificaciones introducidas en el Régimen Informativo de la referencia, con vigencia a partir del día 01/11/2026."
+      ],
+      "dondeNombraASys": "…ese mes. - Partidas correspondientes a la integración diaria, así como los saldos correspondientes a “Depósitos en pesos en cuentas de los proveedores de servicios de pago que ofrecen cuentas de pago (PSPOCP) en las que se encuentren depositados los fondos de sus clientes”: se presentarán en forma diaria y su…",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 11,
+        "motivos": [
+          "proveedores de servicios de pago",
+          "cuentas de pago",
+          "entidades financieras"
+        ],
+        "temas": [
+          "psp",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Banco Central modificó el régimen informativo contable mensual sobre efectivo mínimo y aplicación de recursos para entidades financieras.",
+        "comoAfecta": "La norma está dirigida a bancos, no a los proveedores de servicios de pago.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
     }
   ],
   "revisado": [
-    "Boletín Oficial del 2026-10-14: 78 normas (día anterior, vuelto a mirar por si quedó algo).",
     "Boletín Oficial del 2026-10-15: 55 normas.",
-    "BCRA \"A\": 0 nuevas (última leída: A 8491).",
-    "BCRA \"B\": 0 nuevas (última leída: B 13247).",
-    "BCRA \"C\": 0 nuevas (última leída: C 102431).",
+    "BCRA \"A\": 1 nuevas (última leída: A 8492).",
+    "BCRA \"B\": 1 nuevas (última leída: B 13248).",
+    "BCRA \"C\": 4 nuevas (última leída: C 102435).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
