@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-17",
-  "generado": "17/10/2026 a las 13:38",
+  "generado": "17/10/2026 a las 14:14",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-17: no hubo edición.",
@@ -9,7 +9,7 @@
     "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [
-    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
+    "BCRA \"A\": el sitio no respondió a tiempo (4 intentos)",
     "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
     "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
     "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
