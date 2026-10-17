@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-17",
-  "generado": "17/10/2026 a las 18:16",
+  "generado": "17/10/2026 a las 18:53",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-17: no hubo edición.",
@@ -18,7 +18,7 @@
     "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr-nc.pdf",
     "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-spd.pdf",
     "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-dd.pdf",
-    "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\": el sitio no respondió a tiempo (4 intentos)",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
     "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
