@@ -15,7 +15,7 @@
     "t-rmgcti": "A 8401",
     "t-excbio": "A 8481"
   },
-  "boletinHasta": "2026-10-15",
+  "boletinHasta": "2026-10-16",
   "pendientes": {
     "A": [],
     "B": [],
@@ -36,7 +36,21 @@
     "post-103687",
     "post-103632"
   ],
-  "fallasAvisadas": [],
+  "fallasAvisadas": [
+    "BCRA \"A\"",
+    "BCRA \"B\"",
+    "BCRA \"C\"",
+    "Texto ordenado \"Proveedores de servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\"",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
+    "Texto ordenado \"Exterior y cambios\"",
+    "Prensa del BCRA"
+  ],
   "rentasVistas": [
     "p=101743",
     "p=101691",
@@ -51,10 +65,24 @@
     "p=100623",
     "p=100746"
   ],
-  "fallasDesde": {},
-  "boletinHoy": {
-    "fecha": "2026-10-16",
-    "normas": 55
+  "fallasDesde": {
+    "BCRA \"A\"": "2026-10-17T13:09:26.187Z",
+    "BCRA \"B\"": "2026-10-17T13:09:26.187Z",
+    "BCRA \"C\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Proveedores de servicios de pago\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"": "2026-10-17T13:09:26.187Z",
+    "Texto ordenado \"Exterior y cambios\"": "2026-10-17T13:09:26.187Z",
+    "Prensa del BCRA": "2026-10-17T13:09:26.187Z"
   },
-  "ultimaCorrida": "2026-10-17T00:48:48.985Z"
+  "boletinHoy": {
+    "fecha": "2026-10-17",
+    "normas": 0
+  },
+  "ultimaCorrida": "2026-10-17T13:09:26.187Z"
 }

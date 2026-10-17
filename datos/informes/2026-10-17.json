@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-10-17",
+  "generado": "17/10/2026 a las 10:09",
+  "hallazgos": [],
+  "revisado": [
+    "Boletín Oficial del 2026-10-16: 55 normas (día anterior, vuelto a mirar por si quedó algo).",
+    "Boletín Oficial del 2026-10-17: no hubo edición.",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Resumen con IA: no hubo normas para resumir."
+  ],
+  "errores": [
+    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
+    "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
+    "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
+    "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\": el sitio no respondió a tiempo (4 intentos)",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-spd.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-dd.pdf",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
+    "Texto ordenado \"Exterior y cambios\": el sitio no respondió a tiempo (4 intentos)",
+    "Prensa del BCRA: HTTP 502 en https://www.bcra.gob.ar/noticias/"
+  ],
+  "demoras": [],
+  "enCurso": [
+    "BCRA \"A\"",
+    "BCRA \"B\"",
+    "BCRA \"C\"",
+    "Texto ordenado \"Proveedores de servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\"",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
+    "Texto ordenado \"Exterior y cambios\"",
+    "Prensa del BCRA"
+  ]
+}
