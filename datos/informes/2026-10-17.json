@@ -1,15 +1,16 @@
 {
   "fecha": "2026-10-17",
-  "generado": "17/10/2026 a las 14:14",
+  "generado": "17/10/2026 a las 14:48",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-17: no hubo edición.",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
     "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [
-    "BCRA \"A\": el sitio no respondió a tiempo (4 intentos)",
+    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
     "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
     "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
     "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
@@ -20,8 +21,7 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
-    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf",
-    "Prensa del BCRA: HTTP 502 en https://www.bcra.gob.ar/noticias/"
+    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
   ],
   "demoras": [],
   "enCurso": [
@@ -36,7 +36,6 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
-    "Texto ordenado \"Exterior y cambios\"",
-    "Prensa del BCRA"
+    "Texto ordenado \"Exterior y cambios\""
   ]
 }
