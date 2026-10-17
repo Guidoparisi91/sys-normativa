@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-17",
-  "generado": "17/10/2026 a las 12:27",
+  "generado": "17/10/2026 a las 13:01",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-17: no hubo edición.",
@@ -10,7 +10,7 @@
     "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [
-    "BCRA \"A\": el sitio no respondió a tiempo (4 intentos)",
+    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
     "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
     "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
     "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
@@ -21,7 +21,7 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
-    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
+    "Texto ordenado \"Exterior y cambios\": el sitio no respondió a tiempo (4 intentos)"
   ],
   "demoras": [],
   "enCurso": [
