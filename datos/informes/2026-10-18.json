@@ -1,0 +1,42 @@
+{
+  "fecha": "2026-10-18",
+  "generado": "18/10/2026 a las 00:26",
+  "hallazgos": [],
+  "revisado": [
+    "Boletín Oficial del 2026-10-17: no hubo edición.",
+    "Boletín Oficial del 2026-10-18: no hubo edición.",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
+    "Resumen con IA: no hubo normas para resumir."
+  ],
+  "errores": [
+    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
+    "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
+    "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
+    "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr-nc.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-spd.pdf",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-dd.pdf",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
+    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
+  ],
+  "demoras": [],
+  "enCurso": [
+    "BCRA \"A\"",
+    "BCRA \"B\"",
+    "BCRA \"C\"",
+    "Texto ordenado \"Proveedores de servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Servicios de pago\"",
+    "Texto ordenado \"Sistema Nacional de Pagos – Débitos directos\"",
+    "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
+    "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
+    "Texto ordenado \"Exterior y cambios\""
+  ]
+}
