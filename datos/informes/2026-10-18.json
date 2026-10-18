@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-18",
-  "generado": "18/10/2026 a las 08:03",
+  "generado": "18/10/2026 a las 08:41",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-18: no hubo edición.",
@@ -21,7 +21,7 @@
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
     "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf",
-    "Prensa del BCRA: HTTP 502 en https://www.bcra.gob.ar/noticias/"
+    "Prensa del BCRA: el sitio no respondió a tiempo (4 intentos)"
   ],
   "demoras": [],
   "enCurso": [
