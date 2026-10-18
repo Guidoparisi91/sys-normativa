@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-17",
-  "generado": "17/10/2026 a las 21:46",
+  "generado": "17/10/2026 a las 22:22",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-17: no hubo edición.",
@@ -12,7 +12,7 @@
   "errores": [
     "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
     "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
-    "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
+    "BCRA \"C\": el sitio no respondió a tiempo (4 intentos)",
     "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
     "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr.pdf",
     "Texto ordenado \"Sistema Nacional de Pagos – Transferencias – Normas complementarias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr-nc.pdf",
