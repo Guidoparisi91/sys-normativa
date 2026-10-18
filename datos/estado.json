@@ -48,7 +48,8 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
-    "Texto ordenado \"Exterior y cambios\""
+    "Texto ordenado \"Exterior y cambios\"",
+    "Prensa del BCRA"
   ],
   "rentasVistas": [
     "p=101743",
@@ -76,11 +77,12 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\"": "2026-10-17T13:09:26.187Z",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"": "2026-10-17T13:09:26.187Z",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"": "2026-10-17T13:09:26.187Z",
-    "Texto ordenado \"Exterior y cambios\"": "2026-10-17T13:09:26.187Z"
+    "Texto ordenado \"Exterior y cambios\"": "2026-10-17T13:09:26.187Z",
+    "Prensa del BCRA": "2026-10-18T04:02:14.858Z"
   },
   "boletinHoy": {
     "fecha": "2026-10-18",
     "normas": 0
   },
-  "ultimaCorrida": "2026-10-18T03:26:00.139Z"
+  "ultimaCorrida": "2026-10-18T04:02:14.858Z"
 }
