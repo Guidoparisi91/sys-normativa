@@ -24,11 +24,5 @@
     "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
   ],
   "demoras": [],
-  "enCurso": [
-    "BCRA \"A\"",
-    "BCRA \"B\"",
-    "BCRA \"C\"",
-    "Texto ordenado \"Proveedores de servicios de pago\"",
-    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\""
-  ]
+  "enCurso": []
 }

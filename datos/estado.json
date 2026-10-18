@@ -36,13 +36,7 @@
     "post-103687",
     "post-103632"
   ],
-  "fallasAvisadas": [
-    "BCRA \"A\"",
-    "BCRA \"B\"",
-    "BCRA \"C\"",
-    "Texto ordenado \"Proveedores de servicios de pago\"",
-    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\""
-  ],
+  "fallasAvisadas": [],
   "rentasVistas": [
     "p=101743",
     "p=101691",
@@ -57,16 +51,10 @@
     "p=100623",
     "p=100746"
   ],
-  "fallasDesde": {
-    "BCRA \"A\"": "2026-10-17T13:09:26.187Z",
-    "BCRA \"B\"": "2026-10-17T13:09:26.187Z",
-    "BCRA \"C\"": "2026-10-17T13:09:26.187Z",
-    "Texto ordenado \"Proveedores de servicios de pago\"": "2026-10-17T13:09:26.187Z",
-    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\"": "2026-10-17T13:09:26.187Z"
-  },
+  "fallasDesde": {},
   "boletinHoy": {
     "fecha": "2026-10-18",
     "normas": 0
   },
-  "ultimaCorrida": "2026-10-18T14:48:22.805Z"
+  "ultimaCorrida": "2026-10-18T15:05:22.152Z"
 }

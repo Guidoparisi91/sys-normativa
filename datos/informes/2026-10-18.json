@@ -1,27 +1,18 @@
 {
   "fecha": "2026-10-18",
-  "generado": "18/10/2026 a las 11:48",
+  "generado": "18/10/2026 a las 12:05",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-18: no hubo edición.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8492).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13250).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102440).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
     "Resumen con IA: no hubo normas para resumir."
   ],
-  "errores": [
-    "BCRA \"A\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8492.pdf",
-    "BCRA \"B\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13250.pdf",
-    "BCRA \"C\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102440.pdf",
-    "Texto ordenado \"Proveedores de servicios de pago\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf",
-    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr.pdf"
-  ],
-  "demoras": [
-    "BCRA \"A\": la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "BCRA \"B\": la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "BCRA \"C\": la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "Texto ordenado \"Proveedores de servicios de pago\": la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "Texto ordenado \"Sistema Nacional de Pagos – Transferencias\": la consulta se encuentra demorada; se completará automáticamente en la próxima actualización."
-  ],
+  "errores": [],
+  "demoras": [],
   "enCurso": []
 }
