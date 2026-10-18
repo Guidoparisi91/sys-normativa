@@ -1,11 +1,12 @@
 {
   "fecha": "2026-10-18",
-  "generado": "18/10/2026 a las 04:35",
+  "generado": "18/10/2026 a las 05:08",
   "hallazgos": [],
   "revisado": [
     "Boletín Oficial del 2026-10-18: no hubo edición.",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
     "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [
@@ -20,8 +21,7 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf",
-    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf",
-    "Prensa del BCRA: HTTP 502 en https://www.bcra.gob.ar/noticias/"
+    "Texto ordenado \"Exterior y cambios\": HTTP 502 en https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
   ],
   "demoras": [],
   "enCurso": [
@@ -36,7 +36,6 @@
     "Texto ordenado \"Protección de los usuarios de servicios financieros\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información (servicios financieros digitales)\"",
     "Texto ordenado \"Riesgos de tecnología y seguridad de la información\"",
-    "Texto ordenado \"Exterior y cambios\"",
-    "Prensa del BCRA"
+    "Texto ordenado \"Exterior y cambios\""
   ]
 }
