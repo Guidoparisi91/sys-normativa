@@ -1,0 +1,111 @@
+{
+  "fecha": "2026-10-19",
+  "generado": "19/10/2026 a las 09:49",
+  "hallazgos": [
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Ministerio de Justicia - Dirección General del Registro de la Propiedad Inmueble de la Capital Federal",
+      "titulo": "Disposición 11/2026",
+      "asunto": "",
+      "fecha": "19/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/349248/20261019",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "Deróganse las Disposiciones Técnico Registrales N° 1 del 22 de mayo de 2014, N° 19 del 15 de septiembre de 2016, N° 7 del 10 de noviembre de 2020 y N° 7 del 6 de mayo de 2024.",
+      "paraQue": "A fin de garantizar la seguridad jurídica y simplificar la tramitación a los usuarios y profesionales, resulta necesario dictar una disposición unificada que derogue el plexo reglamentario anterior (DTR N° 1/2014, DTR N° 7/2020 y DTR N° 7/2024) y apruebe el nuevo Formulario de Declaración Jurada de Beneficiario Final adaptado a la Resolución UIF N° 93/2026.",
+      "tema": "lavado",
+      "comoAfecta": [
+        "Trata materias vinculadas a SYS (agregadores / adquirentes, Ley 27.739 (PSP sujetos obligados), Ley 25.246 (lavado de activos)), sin mencionar expresamente su actividad.",
+        "SYS es sujeto obligado ante la UIF desde la Ley 27.739 (identificación de clientes, monitoreo y reporte de operaciones sospechosas). Sus cambios pueden requerir ajustes en el alta de clientes o en el monitoreo."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "Cuando se solicite la inscripción de un documento de transmisión de dominio autorizado a partir del 8 de noviembre de 2026 y se trate a su vez de una Actividad Específica por el cual, una de las Personas Jurídicas y/o Estructuras Jurídicas comprendidas en el…",
+        "La presente Disposición Técnico Registral entrará en vigencia a partir del día 8 de noviembre de 2026."
+      ],
+      "dondeNombraASys": "Que los Registros de la Propiedad Inmueble revisten el carácter de Sujetos Obligados ante la Unidad de Información Financiera (UIF), conforme lo dispuesto por el inciso 19 del artículo 20 de la Ley N° 25.246 y sus modificatorias incorporadas por Ley N° 27.739).",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "descartada",
+        "puntaje": 7,
+        "motivos": [
+          "agregadores / adquirentes",
+          "Ley 27.739 (PSP sujetos obligados)",
+          "Ley 25.246 (lavado de activos)",
+          "sujetos obligados",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "lavado",
+          "pagos"
+        ],
+        "fuerte": false
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Registro de la Propiedad Inmueble de la Capital Federal establece un nuevo procedimiento y formulario para la declaración de beneficiarios finales en transmisiones de dominio desde el 8 de noviembre de 2026.",
+        "comoAfecta": "No regula la actividad de las billeteras virtuales ni sus operaciones de pagos.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    },
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Comisión Arbitral Convenio Multilateral del 18.8.77",
+      "titulo": "Disposición 11/2026",
+      "asunto": "",
+      "fecha": "19/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/349247/20261019",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "Modifícanse las fechas de vencimiento correspondientes a la segunda quincena de octubre de 2026 del Sistema de Recaudación y Control de Agentes de Recaudación (SIRCAR), previstas para los días lunes 9 y martes 10 de noviembre de 2026, conforme a la Disposición de Presidencia Nº 1/2026, ratificada por la Resolución General CA Nº 2/2026, estableciéndose como nueva fecha de vencimiento para ambos casos el viernes 13 de noviembre de 2026, inclusive.",
+      "paraQue": "Resulta necesario adecuar los vencimientos correspondientes al anticipo octubre de 2026 del SIFERE, a fin de posibilitar que los contribuyentes cuenten oportunamente con la información relativa a las recaudaciones computables como deducciones provenientes de los sistemas SIRCAR y SIRTAC y puedan cumplir adecuadamente con sus obligaciones tributarias.",
+      "tema": "iibb",
+      "comoAfecta": [
+        "Trata materias vinculadas a SYS (SIRTAC / regímenes de recaudación de IIBB, Convenio Multilateral / IIBB, retenciones/percepciones), sin mencionar expresamente su actividad.",
+        "Retenciones de Ingresos Brutos sobre las acreditaciones en cuentas de pago. Puede modificar las alícuotas aplicables a los clientes de SYS o sus obligaciones como agente."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "…Nº 1/2026, ratificada por la Resolución General CA Nº 2/2026, estableciéndose como nueva fecha de vencimiento para ambos casos el viernes 13 de noviembre de 2026, inclusive.",
+        "…11 de noviembre de 2026 por la Resolución General CA Nº 24/2025, fijándose como nueva fecha de vencimiento el viernes 13 de noviembre de 2026.",
+        "…Multilateral, a través del Sistema Federal de Recaudación (SIFERE), estableciéndose como fechas de vencimiento los días martes 17, miércoles 18, jueves 19 y viernes 20 de noviembre de 2026, según la distribución prevista en el calendario…"
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "descartada",
+        "puntaje": 6,
+        "motivos": [
+          "SIRTAC / regímenes de recaudación de IIBB",
+          "Convenio Multilateral / IIBB",
+          "retenciones/percepciones",
+          "emitida por la Comisión Arbitral",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "iibb",
+          "impuestos"
+        ],
+        "fuerte": false
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "La Comisión Arbitral modificó los vencimientos de SIRCAR, SIRTAC y SIFERE de octubre de 2026 por feriados nacionales.",
+        "comoAfecta": "No modifica las obligaciones de SYS como agente de recaudación de SIRCUPA.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
+  "revisado": [
+    "Boletín Oficial del 2026-10-18: no hubo edición.",
+    "Boletín Oficial del 2026-10-19: 100 normas.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8492).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13250).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102440).",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
+    "Resumen con IA: 2 de 2 normas."
+  ],
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
+}
