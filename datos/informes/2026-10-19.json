@@ -1,7 +1,61 @@
 {
   "fecha": "2026-10-19",
-  "generado": "19/10/2026 a las 09:49",
+  "generado": "19/10/2026 a las 21:49",
   "hallazgos": [
+    {
+      "fuente": "BCRA",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8493",
+      "asunto": "Sistema Nacional de Pagos – Medio Electrónico de Pagos (MEP). Actualización.",
+      "fecha": "19/10/2026",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8493.pdf",
+      "tipo": "Actualización del texto ordenado",
+      "queCambia": "Nos dirigimos a Uds. a fin de hacerles llegar en anexo las hojas que, en reemplazo de las oportunamente provistas, corresponde incorporar en el texto ordenado sobre Sistema Nacional de Pagos – Medio Electrónico de Pagos (MEP) en función de las disposiciones divulgadas mediante la Comunicación A 8474, B 13105 y 13164. Se recuerda que la página de esta Institución www.bcra.gob.ar, accediendo a “Sistema Financiero – MARCO LEGAL Y NORMATIVO – Ordenamientos y resúmenes – Texto ordenados de normativa general”, se encontrarán las modificaciones realizadas con textos resaltados en caracteres especiales (tachado y negrita).",
+      "paraQue": "",
+      "tema": "pagos",
+      "comoAfecta": [
+        "No está dirigida a los PSP (destinatarios: entidades financieras, cámaras electrónicas de compensación, infraestructuras del mercado financiero), pero trata materias vinculadas a la actividad de SYS.",
+        "Alcanza la operatoria de pagos de SYS: envío, acreditación y rechazo de pagos con QR y transferencias. Puede requerir cambios en el producto o en la integración con entidades y redes.",
+        "No incorpora disposiciones nuevas: actualiza el texto ordenado con lo dispuesto por las comunicaciones A 8474, B 13105."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [],
+      "dondeNombraASys": "Para transferencias entre cuentas de distintos titulares, no gravadas en origen, según la Ley 25.413.",
+      "relacionadas": [
+        {
+          "texto": "Comunicación \"A\" 8474",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8474.pdf",
+          "detalle": "Implementación de firma digital en trámites gestionados ante la Gerencia de Cuentas Corrientes. (03/09/2026)"
+        },
+        {
+          "texto": "Comunicación \"B\" 13105",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/B13105.pdf",
+          "detalle": "MEP - Medio Electrónico de Pagos. Nueva operatoria interna V04 de acreditación inmediata y modificación de la operatoria DZ5 por devoluciones de transferencias inmediatas de Coelsa. (13/01/2026)"
+        }
+      ],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 8,
+        "motivos": [
+          "transferencia electrónica de fondos",
+          "sistema nacional de pagos",
+          "impuesto a los débitos y créditos (Ley 25.413)",
+          "entidades financieras"
+        ],
+        "temas": [
+          "pagos",
+          "cheque",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Banco Central actualizó el texto ordenado sobre el Sistema Nacional de Pagos y el Medio Electrónico de Pagos.",
+        "comoAfecta": "La norma está dirigida exclusivamente a entidades financieras y cámaras de compensación.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    },
     {
       "fuente": "Boletín Oficial",
       "emisor": "Ministerio de Justicia - Dirección General del Registro de la Propiedad Inmueble de la Capital Federal",
@@ -95,15 +149,14 @@
     }
   ],
   "revisado": [
-    "Boletín Oficial del 2026-10-18: no hubo edición.",
     "Boletín Oficial del 2026-10-19: 100 normas.",
-    "BCRA \"A\": 0 nuevas (última leída: A 8492).",
+    "BCRA \"A\": 1 nuevas (última leída: A 8493).",
     "BCRA \"B\": 0 nuevas (última leída: B 13250).",
-    "BCRA \"C\": 0 nuevas (última leída: C 102440).",
+    "BCRA \"C\": 4 nuevas (última leída: C 102444).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: 2 de 2 normas."
+    "Resumen con IA: 1 de 1 normas."
   ],
   "errores": [],
   "demoras": [],
