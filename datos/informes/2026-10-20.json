@@ -1,16 +1,62 @@
 {
   "fecha": "2026-10-20",
-  "generado": "20/10/2026 a las 10:07",
-  "hallazgos": [],
+  "generado": "20/10/2026 a las 21:50",
+  "hallazgos": [
+    {
+      "fuente": "BCRA",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"C\" 102451",
+      "asunto": "Comunicación A 8493. Fe de erratas.",
+      "fecha": "20/10/2026",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/C102451.pdf",
+      "tipo": "Corrección de una norma anterior",
+      "queCambia": "El BCRA envía las hojas que, en reemplazo de las oportunamente provistas a través de la Comunicación A 8493, corresponde incorporar en el texto ordenado sobre Sistema Nacional de Pagos – Medio Electrónico de Pagos (MEP) con el objeto de subsanar un error en la versión de las páginas.",
+      "paraQue": "",
+      "tema": "pagos",
+      "comoAfecta": [
+        "No está dirigida a los PSP (destinatarios: entidades financieras, cámaras electrónicas de compensación, infraestructuras del mercado financiero), pero trata materias vinculadas a la actividad de SYS.",
+        "Alcanza la operatoria de pagos de SYS: envío, acreditación y rechazo de pagos con QR y transferencias. Puede requerir cambios en el producto o en la integración con entidades y redes."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [],
+      "dondeNombraASys": "",
+      "relacionadas": [
+        {
+          "texto": "Comunicación \"A\" 8493",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8493.pdf",
+          "detalle": "Sistema Nacional de Pagos – Medio Electrónico de Pagos (MEP). Actualización. (19/10/2026)"
+        }
+      ],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 4,
+        "motivos": [
+          "sistema nacional de pagos",
+          "entidades financieras"
+        ],
+        "temas": [
+          "pagos",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Banco Central emitió una fe de erratas para corregir hojas del texto ordenado sobre el Medio Electrónico de Pagos (MEP) originalmente provistas por la Comunicación A 8493.",
+        "comoAfecta": "La norma está dirigida a entidades financieras y no afecta la operatoria de SYS.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
   "revisado": [
     "Boletín Oficial del 2026-10-20: 61 normas.",
     "BCRA \"A\": 0 nuevas (última leída: A 8493).",
-    "BCRA \"B\": 0 nuevas (última leída: B 13250).",
-    "BCRA \"C\": 0 nuevas (última leída: C 102444).",
+    "BCRA \"B\": 1 nuevas (última leída: B 13251).",
+    "BCRA \"C\": 7 nuevas (última leída: C 102451).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
-    "Rentas Córdoba: 0 normas nuevas.",
+    "Rentas Córdoba: 1 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: no hubo normas para resumir."
+    "Resumen con IA: 1 de 1 normas."
   ],
   "errores": [],
   "demoras": [],

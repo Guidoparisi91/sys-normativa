@@ -1,8 +1,8 @@
 {
   "ultimaComunicacion": {
     "A": 8493,
-    "B": 13250,
-    "C": 102444
+    "B": 13251,
+    "C": 102451
   },
   "textosOrdenados": {
     "t-snp-psp": "A 8488",
@@ -38,6 +38,7 @@
   ],
   "fallasAvisadas": [],
   "rentasVistas": [
+    "p=101825",
     "p=101743",
     "p=101691",
     "p=101683",
@@ -56,5 +57,5 @@
     "fecha": "2026-10-20",
     "normas": 61
   },
-  "ultimaCorrida": "2026-10-20T13:07:33.634Z"
+  "ultimaCorrida": "2026-10-21T00:50:20.421Z"
 }
