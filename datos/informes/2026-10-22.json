@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-22",
-  "generado": "22/10/2026 a las 15:12",
+  "generado": "22/10/2026 a las 15:33",
   "hallazgos": [
     {
       "fuente": "BCRA",
@@ -53,13 +53,13 @@
     }
   ],
   "revisado": [
-    "BCRA \"A\": 1 nuevas (última leída: A 8497).",
+    "BCRA \"A\": 0 nuevas (última leída: A 8497).",
     "BCRA \"B\": 0 nuevas (última leída: B 13251).",
     "BCRA \"C\": 0 nuevas (última leída: C 102457).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: 1 de 1 normas."
+    "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [
     "Boletín Oficial del 2026-10-21: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
