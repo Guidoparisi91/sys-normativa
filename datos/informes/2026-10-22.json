@@ -1,15 +1,65 @@
 {
   "fecha": "2026-10-22",
-  "generado": "22/10/2026 a las 14:51",
-  "hallazgos": [],
+  "generado": "22/10/2026 a las 15:12",
+  "hallazgos": [
+    {
+      "fuente": "BCRA",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8497",
+      "asunto": "Operaciones al Contado a Liquidar y a Término, Pases, Cauciones, Otros Derivados y con Fondos Comunes de Inversión. Proveedores de Servicios de Pago. Adecuaciones.",
+      "fecha": "22/10/2026",
+      "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8497.pdf",
+      "tipo": "Actualización del texto ordenado",
+      "queCambia": "1- Disponer, con vigencia a partir del 01/11/26, que las entidades financieras y los proveedores de servicios de pago que ofrecen cuentas de pago, cuando pongan a disposición de sus clientes la operación con fondos comunes de dinero, deberán informarles en todos sus medios digitales en donde se presente ese servicio (banca por Internet –home banking–, aplicaciones de banca móvil, billeteras digitales interoperables, etc.) la variación del valor de la cuotaparte de los últimos 7 (siete) días corridos expresada como tasa nominal anual –neta de honorarios de administración y custodia–, así como los datos identificatorios de tales fondos, su descripción y clase de cuotaparte.",
+      "paraQue": "",
+      "tema": "psp",
+      "comoAfecta": [
+        "Dirigida a los proveedores de servicios de pago que ofrecen cuentas de pago, categoría que comprende a SYS.",
+        "Régimen que habilita a SYS a operar como proveedor de servicios de pago. Sus cambios pueden alcanzar el registro, el resguardo de fondos de clientes, la información a clientes y los reportes al BCRA."
+      ],
+      "queHacer": "Evaluar las adecuaciones requeridas y sus plazos.",
+      "fechasClave": [
+        "1- Disponer, con vigencia a partir del 01/11/26, que las entidades financieras y los proveedores de servicios de pago que ofrecen cuentas de pago, cuando pongan a disposición de sus clientes la operación con fondos comunes de dinero, deberán informarles en…",
+        "…junto a la opción de inversión y donde se informe el rendimiento de tal fondo. 2- Sustituir, con vigencia a partir del 01/11/26, el punto 4.5.3. del texto ordenado sobre Proveedores de Servicios de Pago, por lo siguiente:"
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "alta",
+        "puntaje": 23,
+        "motivos": [
+          "dirigida a los proveedores de servicios de pago",
+          "proveedores de servicios de pago",
+          "cuentas de pago",
+          "billeteras virtuales/digitales",
+          "PSP/PSPCP",
+          "protección de usuarios de servicios financieros",
+          "entidades financieras"
+        ],
+        "temas": [
+          "psp",
+          "usuarios",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "resumenIa": {
+        "veredicto": "aplica",
+        "queCambia": "El Banco Central dispuso que los proveedores de servicios de pago que ofrecen cuentas de pago deben informar en sus medios digitales la variación de la cuotaparte de los fondos comunes de dinero de los últimos 7 días como tasa nominal anual, con vigencia desde el 01/11/2026.",
+        "comoAfecta": "SYS debe modificar la interfaz de su billetera para mostrar obligatoriamente la tasa nominal anual de los fondos comunes de inversión junto a la opción de inversión.",
+        "queHacer": "Adecuar los medios digitales de SYS para exhibir la variación de la cuotaparte de los fondos comunes de dinero expresada como tasa nominal anual desde el 01/11/2026.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
   "revisado": [
-    "BCRA \"A\": 1 nuevas (última leída: A 8496).",
+    "BCRA \"A\": 1 nuevas (última leída: A 8497).",
     "BCRA \"B\": 0 nuevas (última leída: B 13251).",
     "BCRA \"C\": 0 nuevas (última leída: C 102457).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: no hubo normas para resumir."
+    "Resumen con IA: 1 de 1 normas."
   ],
   "errores": [
     "Boletín Oficial del 2026-10-21: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
