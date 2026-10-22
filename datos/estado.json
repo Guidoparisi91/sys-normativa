@@ -2,7 +2,7 @@
   "ultimaComunicacion": {
     "A": 8493,
     "B": 13251,
-    "C": 102451
+    "C": 102457
   },
   "textosOrdenados": {
     "t-snp-psp": "A 8488",
@@ -57,5 +57,5 @@
     "fecha": "2026-10-21",
     "normas": 52
   },
-  "ultimaCorrida": "2026-10-21T12:49:01.750Z"
+  "ultimaCorrida": "2026-10-22T00:50:28.416Z"
 }
