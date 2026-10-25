@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { fechaDeNoticia, parsearListado } from './fuentes/bcraPrensa.js';
 import { fechaArgentina, parsearFeed } from './fuentes/rentasCordoba.js';
+import { numeroDeAviso, parsearPdf, parsearRepositorio } from './fuentes/boletinOficial.js';
 import { claveCordoba } from './procesar.js';
 import { evaluar } from './reglas.js';
 
@@ -73,4 +74,77 @@ test('la misma norma de Córdoba por el Boletín o por Rentas no se repite', () 
   assert.equal(sipBoletin, 'cba-sip-19');
   assert.equal(sipRentas, sipBoletin);
   assert.equal(claveCordoba({ titulo: 'Resolución General N° 2229', fuente: 'Boletín Oficial', emisor: 'ARCA' }), null);
+});
+
+// Boletín Oficial leído del PDF del día (repositorio de la BFA), recortes reales del 23/10/2026.
+const REPOSITORIO = `<form class="form-inline" method="GET" action="/ots/"><input type="text" name="date_filter"></form>
+<h4 class="text-left">23-10-2026</h4><table><tbody>
+<tr>
+<td>1</td>
+<td class="txtlargo">85ae</td>
+<td><a href="/ots/download/85aef326/0/"><i class="fa fa-download"></i></a></td>
+<td><a href="/ots/download/85aef326/2/"></a></td>
+</tr>
+<tr>
+<td>2</td>
+<td class="txtlargo">5572</td>
+<td><a href="/ots/download/5572167f/0/"></a></td>
+</tr>
+</tbody></table>
+<h4 class="text-left">22-10-2026</h4><table><tbody><tr><td>1</td><td><a href="/ots/download/aaaa/0/"></a></td></tr></tbody></table>`;
+
+test('Boletín Oficial por PDF: el repositorio da el PDF de la primera sección de ese día', () => {
+  assert.deepEqual(parsearRepositorio(REPOSITORIO, '20261023'), ['https://otslist.boletinoficial.gob.ar/ots/download/85aef326/0/']);
+  // Sin edición ese día (fin de semana): no hay renglón.
+  assert.deepEqual(parsearRepositorio(REPOSITORIO, '20261024'), []);
+  // Una página desconocida nunca se toma como "no hubo edición".
+  assert.throws(() => parsearRepositorio('<html>Mantenimiento</html>', '20261024'));
+});
+
+const PAGINAS = [
+  'Primera Sección\nLegislación y Avisos Oficiales',
+  `SUMARIO
+Decretos
+PODER EJECUTIVO. Decreto 1253/2026. DECTO-2026-1253-APN-PTE - Reglamentación de la Ley N° 27.799. Modificación. ...................... 3`,
+  `BOLETÍN OFICIAL Nº 36.019 - Primera Sección 3 Viernes 23 de octubre de 2026
+Decretos
+PODER EJECUTIVO
+Decreto 1253/2026
+DECTO-2026-1253-APN-PTE - Reglamentación de la Ley N° 27.799. Modificación.
+Ciudad de Buenos Aires, 22/10/2026
+VISTO el Expediente N° EX-2026-98196090-APN-DGDA#MEC
+e. 23/10/2026 N° 79166/26 v. 23/10/2026
+MINISTERIO DE ECONOMÍA
+SECRETARÍA DE ENERGÍA
+Resolución 297/2026
+RESOL-2026-297-APN-SE#MEC
+Ciudad de Buenos Aires, 21/10/2026
+e. 23/10/2026 N° 78712/26 v. 23/10/2026
+#F7820497F#`,
+  `BOLETÍN OFICIAL Nº 36.019 - Primera Sección 4 Viernes 23 de octubre de 2026
+Avisos Oficiales
+NUEVOS
+BANCO CENTRAL DE LA REPÚBLICA ARGENTINA
+El Banco Central de la República Argentina cita y emplaza...
+e. 23/10/2026 N° 78368/26 v. 27/10/2026`,
+];
+
+test('Boletín Oficial por PDF: separa cada aviso con organismo, nombre, texto y número', () => {
+  const avisos = parsearPdf(PAGINAS);
+  assert.deepEqual(
+    avisos.map((a) => [a.organismo, a.titulo, a.numero]),
+    [
+      ['PODER EJECUTIVO', 'Decreto 1253/2026', '79166/26'],
+      ['MINISTERIO DE ECONOMÍA - SECRETARÍA DE ENERGÍA', 'Resolución 297/2026', '78712/26'],
+      ['BANCO CENTRAL DE LA REPÚBLICA ARGENTINA', 'Aviso Oficial', '78368/26'],
+    ],
+  );
+  assert.match(avisos[0].texto, /^DECTO-2026-1253[\s\S]*VISTO el Expediente/);
+  assert.doesNotMatch(avisos[1].texto, /BOLETÍN OFICIAL Nº|#F/);
+  assert.equal(numeroDeAviso(avisos[2].texto), '78368/26');
+});
+
+test('Boletín Oficial por PDF: un PDF sin avisos reconocibles es un error, no un día vacío', () => {
+  assert.throws(() => parsearPdf(['tapa', 'otra cosa']));
+  assert.throws(() => parsearPdf([PAGINAS[0], PAGINAS[1], 'BOLETÍN OFICIAL Nº 36.019 - Primera Sección 3\nTexto sin pie']));
 });

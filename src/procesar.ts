@@ -154,7 +154,8 @@ export function claveCordoba(h: Pick<Hallazgo, 'titulo' | 'fuente' | 'emisor'>):
   return tipo ? `cba-${tipo}-${n}` : null;
 }
 
-const claveNorma = (h: Hallazgo) => claveComunicacion(h.titulo) ?? claveCordoba(h);
+// Un aviso del Boletín Oficial es el mismo leído de la web o del PDF del día: el número de su pie.
+const claveNorma = (h: Hallazgo) => claveComunicacion(h.titulo) ?? claveCordoba(h) ?? (h.avisoBO ? `bo-${h.avisoBO}` : null);
 
 /** Lo ya informado en otros días: links de cada norma y número de cada comunicación del BCRA. */
 async function yaInformado(menos: string): Promise<Set<string>> {
@@ -194,14 +195,14 @@ export async function guardarDia(
   } catch {
     // Primera corrida del día.
   }
-  const vistos = new Set(anterior?.hallazgos.map((h) => h.url));
+  const vistos = new Set(anterior?.hallazgos.flatMap((h) => [h.url, claveNorma(h) ?? h.url]));
   // Una comunicación que ya salió otro día (p. ej. en la web del BCRA y días
   // después en el Boletín Oficial) no se repite: queda donde apareció primero.
   const otrosDias = await yaInformado(fecha);
   const nuevos = ordenar(
     lote.hallazgos.filter((h) => {
       const k = claveNorma(h);
-      return !vistos.has(h.url) && !otrosDias.has(h.url) && !(k && otrosDias.has(k));
+      return !vistos.has(h.url) && !(k && vistos.has(k)) && !otrosDias.has(h.url) && !(k && otrosDias.has(k));
     }),
   );
 
@@ -232,4 +233,31 @@ export async function guardarDia(
   await mkdir(INFORMES, { recursive: true });
   await writeFile(archivo, JSON.stringify(resumen, null, 2) + '\n', 'utf8');
   return { resumen, nuevos };
+}
+
+/**
+ * El Boletín de un día anterior leído recién ahora (porque esos días falló) o
+ * vuelto a mirar: sus normas van al informe de ese día, no al de hoy, y la
+ * falla deja de figurar ahí (Boletín del 21 al 23/10/2026, leído el 25/10),
+ * igual que las de los otros días ya leídos (`leidos`), que cada corrida
+ * fallida anotaba juntas.
+ * Si no hay nada que cambiar, el informe de ese día queda como estaba.
+ */
+export async function completarDiaAnterior(dia: string, lote: Lote, lineaBoletin: string, leidos: string[]): Promise<Hallazgo[]> {
+  let anterior: Resumen | undefined;
+  try {
+    anterior = JSON.parse(await readFile(new URL(`${dia}.json`, INFORMES), 'utf8')) as Resumen;
+  } catch {
+    // Ese día no corrió el monitor.
+  }
+  const delBoletin = (s: string) => s.startsWith(`Boletín Oficial del ${dia}`);
+  const yaLeido = (s: string) => [dia, ...leidos].some((d) => s.startsWith(`Boletín Oficial del ${d}`));
+  const fallaba = [...(anterior?.errores ?? []), ...(anterior?.demoras ?? []), ...(anterior?.enCurso ?? [])].some(yaLeido);
+  if (anterior && !fallaba && !lote.hallazgos.length) return [];
+  const revisado = [lineaBoletin, ...(anterior?.revisado ?? []).filter((r) => !delBoletin(r) && !r.startsWith('Resumen con IA'))];
+  const { nuevos } = await guardarDia(dia, lote, revisado, (anterior?.errores ?? []).filter((e) => !yaLeido(e)), {
+    demoras: (anterior?.demoras ?? []).filter((d) => !yaLeido(d)),
+    enCurso: (anterior?.enCurso ?? []).filter((d) => !yaLeido(d)),
+  });
+  return nuevos;
 }

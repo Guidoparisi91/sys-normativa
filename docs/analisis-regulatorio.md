@@ -9,7 +9,7 @@ SYS Global Pay es una **billetera virtual para empresas** (gastos corporativos c
 Las normas que le pueden cambiar el negocio salen de **ocho organismos** y se publican en **tres lugares distintos**:
 
 1. **La web del BCRA.** Ahí sale lo más importante, y en su mayoría **no** se publica en el Boletín Oficial.
-2. **El Boletín Oficial nacional.** UIF, ARCA, CNV, decretos, Comisión Arbitral y algunas comunicaciones del BCRA.
+2. **El Boletín Oficial nacional.** UIF, ARCA, CNV, decretos, Comisión Arbitral y algunas comunicaciones del BCRA. Las comunicaciones del BCRA que salen en el Boletín se evalúan igual que las de la web: "Le afecta" solo si van dirigidas a los PSP; si no, como mucho "Para revisar" (regla del 25/10/2026, caso real: A 8474 en el Boletín del 22/10/2026). Desde el 22/10/2026 el sitio del Boletín no acepta conexiones del exterior: el monitor lee el PDF de la sección del día que el Boletín publica en su repositorio de la Blockchain Federal Argentina.
 3. **Los boletines provinciales.** Ingresos Brutos sobre billeteras: ARBA, AGIP, Córdoba, etc.
 
 El monitor ya cubre los dos primeros. Los boletines provinciales y el Congreso quedan para una segunda etapa.

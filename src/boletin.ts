@@ -59,7 +59,9 @@ export async function recorrerBoletin(
         edicionHoy = normas > 0;
         if (!manual) estado.boletinHoy = { fecha: dia, normas };
       }
-      const cuando = dia === fecha ? '' : ' (día anterior, vuelto a mirar por si quedó algo)';
+      // Ayer ya leído se vuelve a mirar; un día que había fallado se completa ahora.
+      const releido = dia === ayer && estado.boletinHoy?.fecha === ayer && estado.boletinHoy.normas > 0;
+      const cuando = dia === fecha ? '' : releido ? ' (día anterior, vuelto a mirar por si quedó algo)' : ' (edición anterior, completada en esta revisión)';
       revisado.push(normas ? `${nombre} del ${dia}: ${normas} normas${cuando}.` : `${nombre} del ${dia}: no hubo edición.`);
       if (dia < fecha && seguidos) completoHasta = dia;
     } catch (e) {

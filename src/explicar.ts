@@ -39,6 +39,8 @@ export interface Hallazgo {
   dondeNombraASys: string;
   relacionadas: Enlace[];
   evaluacion: Evaluacion;
+  /** Número de aviso del Boletín Oficial ("79166/26"): la misma norma leída de la web o del PDF. */
+  avisoBO?: string;
   /** Resumen en dos líneas hecho con IA, si estaba activada y respondió. */
   resumenIa?: ResumenIa;
 }
@@ -319,8 +321,19 @@ export function explicarAvisoBO(a: AvisoBO, ev: Evaluacion, fecha: string): Hall
     const enc = parsearEncabezado(cuerpo);
     const m = /COMUNICACI[OÓ]N\s*["“]?([ABC])["”]?\s*(\d+)/i.exec(cuerpo);
     const c: ComunicacionBCRA = { tipo: (m?.[1] ?? 'A') as TipoCom, numero: Number(m?.[2] ?? 0), url: a.url, texto: cuerpo, ...enc };
-    const h = explicarComunicacion(c, ev, dirigidaAPsp(enc.destinatarios));
-    return { ...h, fuente: 'Boletín Oficial', titulo: a.titulo || h.titulo, fecha: enc.fecha || h.fecha || `${fecha.slice(8, 10)}/${fecha.slice(5, 7)}/${fecha.slice(0, 4)}` };
+    // Misma vara que las leídas en la web del BCRA (Lote.comunicacion): si no
+    // va dirigida a los PSP, llega como mucho a "Para revisar" (A 8474, para
+    // entidades financieras, salió como "Le afecta" en el Boletín del 22/10/2026).
+    const dirigida = dirigidaAPsp(enc.destinatarios);
+    if (dirigida && ev.nivel !== 'alta') {
+      ev.nivel = 'alta';
+      ev.motivos.unshift('dirigida a los proveedores de servicios de pago');
+    } else if (!dirigida && ev.nivel === 'alta') ev.nivel = 'revisar';
+    const h = explicarComunicacion(c, ev, dirigida);
+    // En el Boletín figura como "Aviso Oficial": con su número se reconoce la misma
+    // comunicación ya informada desde la web del BCRA (A 8492: 19/10 en la web, 22/10 en el Boletín).
+    const titulo = m && /^aviso oficial$/i.test(a.titulo) ? h.titulo : a.titulo || h.titulo;
+    return { ...h, fuente: 'Boletín Oficial', avisoBO: a.numero, titulo, fecha: enc.fecha || h.fecha || `${fecha.slice(8, 10)}/${fecha.slice(5, 7)}/${fecha.slice(0, 4)}` };
   }
   const dispositiva = parteDispositiva(cuerpo);
   const tema = ev.temas[0] ?? 'general';
@@ -343,6 +356,7 @@ export function explicarAvisoBO(a: AvisoBO, ev: Evaluacion, fecha: string): Hall
     asunto: '',
     fecha: `${d}/${m}/${y}`,
     url: a.url,
+    avisoBO: a.numero,
     tipo: `Publicada en el ${a.boletin ?? 'Boletín Oficial'}`,
     queCambia: recortar(primerArticulo(dispositiva) || plano(cuerpo), 700),
     paraQue: paraQue(cuerpo),

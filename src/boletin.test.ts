@@ -64,3 +64,14 @@ test('una corrida manual no toca el estado', async () => {
   assert.equal(estado.boletinHasta, '2026-10-05');
   assert.equal(estado.boletinHoy, undefined);
 });
+
+test('21 al 25/10/2026: los días que fallaron se completan y se dicen como completados, no como "vueltos a mirar"', async () => {
+  const estado = estadoCon({ boletinHasta: '2026-10-20', boletinHoy: { fecha: '2026-10-21', normas: 52 } });
+  const leidos: string[] = [];
+  const r = await recorrerBoletin('BO', estado, '2026-10-25', false, async (d) => (leidos.push(d), avisos(d < '2026-10-24' ? 50 : 0)), (_, d) => leidos.push(`alLeer ${d}`));
+  assert.equal(leidos.filter((d) => d.startsWith('alLeer')).length, 5);
+  assert.deepEqual(r.errores, []);
+  assert.equal(estado.boletinHasta, '2026-10-24');
+  assert.match(r.revisado[1], /2026-10-22: 50 normas \(edición anterior, completada/);
+  assert.match(r.revisado[3], /2026-10-24: no hubo edición/);
+});

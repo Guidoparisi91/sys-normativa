@@ -20,7 +20,7 @@ import { dejarAviso } from './aviso.js';
 import { guardarEstado, leerEstado } from './estado.js';
 import { explicarTextoOrdenado } from './explicar.js';
 import { armarMarkdown } from './informe.js';
-import { diasEntre, guardarDia, hoyEnArgentina, limpiarDiasAnteriores, Lote } from './procesar.js';
+import { completarDiaAnterior, diasEntre, guardarDia, hoyEnArgentina, limpiarDiasAnteriores, Lote } from './procesar.js';
 import { escribirSitio } from './sitio.js';
 
 function argumento(nombre: string): string | undefined {
@@ -36,7 +36,14 @@ const revisado: string[] = [];
 const errores: string[] = [];
 
 // 1. Boletín Oficial (detalle en boletin.ts). Lo ya informado no se repite.
-const bo = await recorrerBoletin('Boletín Oficial', estado, fecha, Boolean(manual), (dia) => avisosDelDia(dia.replaceAll('-', '')), (avisos, dia) => lote.avisosBO(avisos, dia));
+// Lo de días anteriores (que fallaron, o ayer vuelto a mirar) va al informe de su día.
+const diasAnteriores = new Map<string, { lote: Lote; normas: number }>();
+const bo = await recorrerBoletin('Boletín Oficial', estado, fecha, Boolean(manual), (dia) => avisosDelDia(dia.replaceAll('-', '')), (avisos, dia) => {
+  if (dia === fecha) return lote.avisosBO(avisos, dia);
+  const delDia = new Lote();
+  delDia.avisosBO(avisos, dia);
+  diasAnteriores.set(dia, { lote: delDia, normas: avisos.length });
+});
 revisado.push(...bo.revisado);
 errores.push(...bo.errores);
 
@@ -181,6 +188,10 @@ const demoras = [...new Set(errores.map(claveFalla))]
 // nunca como revisadas.
 const enCurso = [...new Set(errores.map(claveFalla))].filter((k) => !demoras.some((d) => d.startsWith(`${k}:`)));
 const { resumen, nuevos } = await guardarDia(fecha, lote, revisado, errores, { demoras, enCurso });
+for (const [dia, { lote: delDia, normas }] of diasAnteriores) {
+  const linea = normas ? `Boletín Oficial del ${dia}: ${normas} normas.` : `Boletín Oficial del ${dia}: no hubo edición.`;
+  nuevos.push(...(await completarDiaAnterior(dia, delDia, linea, [...diasAnteriores.keys()])));
+}
 if (!manual) await limpiarDiasAnteriores(fecha, new Set(Object.keys(fallasDesde)));
 await escribirSitio(resumen.generado);
 
