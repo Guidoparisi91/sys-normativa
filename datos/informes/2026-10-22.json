@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-22",
-  "generado": "22/10/2026 a las 23:46",
+  "generado": "25/10/2026 a las 11:17",
   "hallazgos": [
     {
       "fuente": "BCRA",
@@ -50,24 +50,107 @@
         "queHacer": "Adecuar los medios digitales de SYS para exhibir la variación de la cuotaparte de los fondos comunes de dinero expresada como tasa nominal anual desde el 01/11/2026.",
         "modelo": "gemini-3.5-flash-lite"
       }
+    },
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Banco Central (BCRA)",
+      "titulo": "Comunicación \"A\" 8474",
+      "asunto": "Implementación de firma digital en trámites gestionados ante la Gerencia de Cuentas Corrientes.",
+      "fecha": "22/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera/20261022#aviso-78376-26",
+      "tipo": "Actualización del texto ordenado",
+      "queCambia": "1. Reemplazar, con vigencia 01/11/26, el punto 2.1. del texto ordenado sobre Cuentas Corrientes y Otras Cuentas a la Vista de las Entidades Financieras y Cambiarias en el Banco Central de la República Argentina por el siguiente: “2.1. Solicitud 2.1.1. Entidades financieras 2.1.1.1. Cuenta corriente en pesos: la Subgerencia de Cuentas Corrientes tramitará su apertura una vez emitida la correspondiente comunicación B que informe la autorización para funcionar de la entidad financiera de que se trate.",
+      "paraQue": "",
+      "tema": "pagos",
+      "comoAfecta": [
+        "No está dirigida a los PSP (destinatarios: entidades financieras, operadores de cambio, cámaras electrónicas de compensación), pero trata materias vinculadas a la actividad de SYS.",
+        "Alcanza la operatoria de pagos de SYS: envío, acreditación y rechazo de pagos con QR y transferencias. Puede requerir cambios en el producto o en la integración con entidades y redes."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "Reemplazar, con vigencia 01/11/26, el punto 2.1. del texto ordenado sobre Cuentas Corrientes y Otras Cuentas a la Vista de las Entidades Financieras y Cambiarias en el Banco Central de la República Argentina por el siguiente:"
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "revisar",
+        "puntaje": 6,
+        "motivos": [
+          "sistema nacional de pagos",
+          "entidades financieras",
+          "emitida por el BCRA"
+        ],
+        "temas": [
+          "pagos",
+          "general"
+        ],
+        "fuerte": true
+      },
+      "avisoBO": "78376/26",
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "El Banco Central modificó los requisitos de firma digital para trámites ante la Gerencia de Cuentas Corrientes dirigidos a entidades financieras y operadores de cambio.",
+        "comoAfecta": "La norma no se dirige a los proveedores de servicios de pago.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    },
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Comisión Arbitral Convenio Multilateral del 18.8.77",
+      "titulo": "Resolución General 11/2026",
+      "asunto": "",
+      "fecha": "22/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera/20261022#aviso-78236-26",
+      "avisoBO": "78236/26",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "Modifíquense las fechas de vencimiento correspondientes a la segunda quincena de octubre de 2026 del Sistema de Recaudación y Control de Agentes de Recaudación (SIRCAR), previstas para los días lunes 9 y martes 10 de noviembre de 2026, conforme a la Disposición de Presidencia No 1/2026, ratificada por la Resolución General CA N° 2/2026, estableciéndose como nueva fecha de vencimiento para ambos casos el viernes 13 de noviembre de 2026, inclusive.",
+      "paraQue": "",
+      "tema": "iibb",
+      "comoAfecta": [
+        "Trata materias vinculadas a SYS (SIRTAC / regímenes de recaudación de IIBB, Convenio Multilateral / IIBB, retenciones/percepciones), sin mencionar expresamente su actividad.",
+        "Retenciones de Ingresos Brutos sobre las acreditaciones en cuentas de pago. Puede modificar las alícuotas aplicables a los clientes de SYS o sus obligaciones como agente."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "nueva fecha de vencimiento el viernes 13 de noviembre de 2026."
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "descartada",
+        "puntaje": 6,
+        "motivos": [
+          "SIRTAC / regímenes de recaudación de IIBB",
+          "Convenio Multilateral / IIBB",
+          "retenciones/percepciones",
+          "emitida por la Comisión Arbitral",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "iibb",
+          "impuestos"
+        ],
+        "fuerte": false
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "La Comisión Arbitral modificó las fechas de vencimiento de SIRCAR, SIRTARC y SIFERE por feriados nacionales.",
+        "comoAfecta": "No modifica las obligaciones de recaudación de SIRCUPA para SYS.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
     }
   ],
   "revisado": [
+    "Boletín Oficial del 2026-10-22: 58 normas.",
     "BCRA \"A\": 0 nuevas (última leída: A 8497).",
     "BCRA \"B\": 0 nuevas (última leída: B 13251).",
     "BCRA \"C\": 0 nuevas (última leída: C 102461).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 0 noticias nuevas.",
-    "Resumen con IA: no hubo normas para resumir."
+    "Resumen con IA: 2 de 2 normas."
   ],
-  "errores": [
-    "Boletín Oficial del 2026-10-21: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
-    "Boletín Oficial del 2026-10-22: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)"
-  ],
+  "errores": [],
   "demoras": [],
-  "enCurso": [
-    "Boletín Oficial del 2026-10-21",
-    "Boletín Oficial del 2026-10-22"
-  ]
+  "enCurso": []
 }

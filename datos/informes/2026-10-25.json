@@ -1,8 +1,13 @@
 {
   "fecha": "2026-10-25",
-  "generado": "25/10/2026 a las 10:54",
+  "generado": "25/10/2026 a las 11:17",
   "hallazgos": [],
   "revisado": [
+    "Boletín Oficial del 2026-10-21: 52 normas (edición anterior, completada en esta revisión).",
+    "Boletín Oficial del 2026-10-22: 58 normas (edición anterior, completada en esta revisión).",
+    "Boletín Oficial del 2026-10-23: 65 normas (edición anterior, completada en esta revisión).",
+    "Boletín Oficial del 2026-10-24: no hubo edición.",
+    "Boletín Oficial del 2026-10-25: no hubo edición.",
     "BCRA \"A\": 0 nuevas (última leída: A 8497).",
     "BCRA \"B\": 0 nuevas (última leída: B 13251).",
     "BCRA \"C\": 0 nuevas (última leída: C 102467).",
@@ -11,20 +16,7 @@
     "Prensa del BCRA: 0 noticias nuevas.",
     "Resumen con IA: no hubo normas para resumir."
   ],
-  "errores": [
-    "Boletín Oficial del 2026-10-21: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
-    "Boletín Oficial del 2026-10-22: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
-    "Boletín Oficial del 2026-10-23: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
-    "Boletín Oficial del 2026-10-24: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)",
-    "Boletín Oficial del 2026-10-25: no se pudo conectar con el sitio (4 intentos, UND_ERR_CONNECT_TIMEOUT)"
-  ],
-  "demoras": [
-    "Boletín Oficial del 2026-10-21: la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "Boletín Oficial del 2026-10-22: la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "Boletín Oficial del 2026-10-23: la consulta se encuentra demorada; se completará automáticamente en la próxima actualización.",
-    "Boletín Oficial del 2026-10-24: la consulta se encuentra demorada; se completará automáticamente en la próxima actualización."
-  ],
-  "enCurso": [
-    "Boletín Oficial del 2026-10-25"
-  ]
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
 }
