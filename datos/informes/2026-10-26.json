@@ -1,0 +1,64 @@
+{
+  "fecha": "2026-10-26",
+  "generado": "26/10/2026 a las 09:49",
+  "hallazgos": [
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Agencia de Recaudación y Control Aduanero",
+      "titulo": "Resolución General 5916/2026",
+      "asunto": "",
+      "fecha": "26/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera/20261026#aviso-79639-26",
+      "avisoBO": "79639/26",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "Modificar la Resolución General N° 5.820, en la forma que se indica a continuación: 1. Sustituir el artículo 1°, por el siguiente: “ARTÍCULO 1°.- Las personas humanas y las sucesiones indivisas que se encuentren comprendidas en los términos del artículo 38 de la Ley Nº 27.799 y su modificación, y que opten por la presentación y determinación del impuesto a las ganancias mediante el Régimen de Declaración Jurada Simplificada -en adelante, el Régimen-, deberán observar los procedimientos, formas, plazos y condiciones que se establecen en la presente.",
+      "paraQue": "En consecuencia, corresponde modificar la Resolución General N° 5.820, de acuerdo a las nuevas previsiones",
+      "tema": "impuestos",
+      "comoAfecta": [
+        "Trata materias vinculadas a SYS (Ley 25.246 (lavado de activos), sujetos obligados), sin mencionar expresamente su actividad.",
+        "SYS informa a ARCA los movimientos y saldos de sus clientes y puede actuar como agente de retención o percepción. Sus cambios pueden alcanzar sistemas y vencimientos."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "La presente resolución general entrará en vigencia el día de su publicación en el Boletín Oficial"
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "descartada",
+        "puntaje": 5,
+        "motivos": [
+          "Ley 25.246 (lavado de activos)",
+          "sujetos obligados",
+          "emitida por ARCA",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "impuestos",
+          "lavado"
+        ],
+        "fuerte": false
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "Se modifica la reglamentación del Régimen de Declaración Jurada Simplificada del Impuesto a las Ganancias para personas humanas.",
+        "comoAfecta": "No modifica las obligaciones de SYS como billetera virtual.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
+  "revisado": [
+    "Boletín Oficial del 2026-10-25: no hubo edición.",
+    "Boletín Oficial del 2026-10-26: 70 normas.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8497).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13251).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102467).",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 0 noticias nuevas.",
+    "Resumen con IA: 1 de 1 normas."
+  ],
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
+}
