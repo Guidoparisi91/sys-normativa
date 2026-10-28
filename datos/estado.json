@@ -1,8 +1,8 @@
 {
   "ultimaComunicacion": {
     "A": 8497,
-    "B": 13251,
-    "C": 102473
+    "B": 13252,
+    "C": 102477
   },
   "textosOrdenados": {
     "t-snp-psp": "A 8488",
@@ -22,6 +22,7 @@
     "C": []
   },
   "prensaVistas": [
+    "post-108269",
     "post-108250",
     "post-107855",
     "post-107647",
@@ -60,5 +61,5 @@
     "fecha": "2026-10-27",
     "normas": 70
   },
-  "ultimaCorrida": "2026-10-27T12:49:22.416Z"
+  "ultimaCorrida": "2026-10-28T00:48:52.606Z"
 }
