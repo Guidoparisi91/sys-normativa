@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-10-29",
+  "generado": "29/10/2026 a las 09:50",
+  "hallazgos": [
+    {
+      "fuente": "Boletín Oficial",
+      "emisor": "Comisión Nacional de Valores",
+      "titulo": "Resolución General 1174/2026",
+      "asunto": "",
+      "fecha": "29/10/2026",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera/20261029#aviso-80826-26",
+      "avisoBO": "80826/26",
+      "tipo": "Publicada en el Boletín Oficial",
+      "queCambia": "Sustituir el Título XV de las NORMAS (N.T. 2013 y mod.), por el siguiente texto: “TÍTULO XV AUTOPISTA DE LA INFORMACIÓN FINANCIERA CAPÍTULO I PRESENTACIÓN DE INFORMACIÓN POR LAS ENTIDADES FISCALIZADAS POR LA CNV SECCIÓN I DISPOSICIONES GENERALES RÉGIMEN INFORMATIVO ELECTRÓNICO. ARTÍCULO 1º.- Deberán presentar la información utilizando los medios informáticos que provee la AIF –con el alcance indicado en el presente Título– las siguientes Entidades: 1. Emisoras. 2. ACR. 3. ACR-UP. 4. Sociedades Gerentes. 5. Sociedades Depositarias. 6. Fiduciarios Financieros. 7. Mercados. 8. Cámaras Compensadoras. 9. ADCVN. 10. ACRyP. 11. AN. 12. ALyC. 13. AP. 14. AAGI. 15. ACVN. 16. ACDI. 17. ACD. 18. PSAV.",
+      "paraQue": "En ese marco, resulta necesario adecuar la enumeración de los sujetos comprendidos en las disposiciones",
+      "tema": "cnv",
+      "comoAfecta": [
+        "Trata materias vinculadas a SYS (sujetos obligados, activos virtuales (PSAV), entidades financieras), sin mencionar expresamente su actividad.",
+        "Aplica si SYS remunera saldos mediante fondos comunes de inversión u opera con activos virtuales."
+      ],
+      "queHacer": "Evaluar su aplicabilidad a SYS.",
+      "fechasClave": [
+        "La presente RG entrará en vigencia a partir del día siguiente al de su publicación en el B.O."
+      ],
+      "dondeNombraASys": "",
+      "relacionadas": [],
+      "evaluacion": {
+        "nivel": "descartada",
+        "puntaje": 6,
+        "motivos": [
+          "sujetos obligados",
+          "activos virtuales (PSAV)",
+          "entidades financieras",
+          "emitida por la CNV",
+          "la IA no ve impacto para SYS"
+        ],
+        "temas": [
+          "cnv",
+          "lavado",
+          "general"
+        ],
+        "fuerte": false
+      },
+      "resumenIa": {
+        "veredicto": "no_aplica",
+        "queCambia": "La Comisión Nacional de Valores simplifica y reorganiza el Título XV de sus normas sobre la Autopista de la Información Financiera y elimina requisitos de trámites.",
+        "comoAfecta": "SYS no opera bajo la supervisión directa de la CNV.",
+        "modelo": "gemini-3.5-flash-lite"
+      }
+    }
+  ],
+  "revisado": [
+    "Boletín Oficial del 2026-10-28: 90 normas (día anterior, vuelto a mirar por si quedó algo).",
+    "Boletín Oficial del 2026-10-29: 58 normas.",
+    "BCRA \"A\": 0 nuevas (última leída: A 8497).",
+    "BCRA \"B\": 0 nuevas (última leída: B 13252).",
+    "BCRA \"C\": 0 nuevas (última leída: C 102483).",
+    "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
+    "Rentas Córdoba: 0 normas nuevas.",
+    "Prensa del BCRA: 1 noticias nuevas.",
+    "Resumen con IA: 1 de 1 normas."
+  ],
+  "errores": [],
+  "demoras": [],
+  "enCurso": []
+}
