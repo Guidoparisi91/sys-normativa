@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-29",
-  "generado": "29/10/2026 a las 09:50",
+  "generado": "29/10/2026 a las 21:49",
   "hallazgos": [
     {
       "fuente": "Boletín Oficial",
@@ -50,15 +50,14 @@
     }
   ],
   "revisado": [
-    "Boletín Oficial del 2026-10-28: 90 normas (día anterior, vuelto a mirar por si quedó algo).",
     "Boletín Oficial del 2026-10-29: 58 normas.",
-    "BCRA \"A\": 0 nuevas (última leída: A 8497).",
+    "BCRA \"A\": 2 nuevas (última leída: A 8499).",
     "BCRA \"B\": 0 nuevas (última leída: B 13252).",
-    "BCRA \"C\": 0 nuevas (última leída: C 102483).",
+    "BCRA \"C\": 5 nuevas (última leída: C 102488).",
     "Textos ordenados del BCRA: 9 temas, 0 cambiaron.",
     "Rentas Córdoba: 0 normas nuevas.",
     "Prensa del BCRA: 1 noticias nuevas.",
-    "Resumen con IA: 1 de 1 normas."
+    "Resumen con IA: no hubo normas para resumir."
   ],
   "errores": [],
   "demoras": [],
