@@ -40,9 +40,7 @@
     "post-103687",
     "post-103632"
   ],
-  "fallasAvisadas": [
-    "Rentas Córdoba"
-  ],
+  "fallasAvisadas": [],
   "rentasVistas": [
     "p=101896",
     "p=101871",
@@ -60,12 +58,10 @@
     "p=100623",
     "p=100746"
   ],
-  "fallasDesde": {
-    "Rentas Córdoba": "2026-10-31T12:49:32.438Z"
-  },
+  "fallasDesde": {},
   "boletinHoy": {
     "fecha": "2026-10-31",
     "normas": 0
   },
-  "ultimaCorrida": "2026-10-31T12:49:32.438Z"
+  "ultimaCorrida": "2026-11-01T00:48:33.368Z"
 }
